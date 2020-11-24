@@ -31,22 +31,6 @@ namespace DevelopmentChecklist.Data
             }
             context.SaveChanges();
 
-            var appAssignments = new AppAssignment[]
-            {
-                new AppAssignment{AppID=1, DeveloperID=5},
-                new AppAssignment{AppID=2, DeveloperID=3},
-                new AppAssignment{AppID=2, DeveloperID=4},
-                new AppAssignment{AppID=3, DeveloperID=1},
-                new AppAssignment{AppID=4, DeveloperID=2},
-                new AppAssignment{AppID=5, DeveloperID=6},
-                new AppAssignment{AppID=5, DeveloperID=5},
-                new AppAssignment{AppID=5, DeveloperID=1}
-            };
-            foreach (AppAssignment assignment in appAssignments)
-            {
-                context.AppAssignments.Add(assignment);
-            }
-            context.SaveChanges();
 
             var developers = new Developer[]
             {

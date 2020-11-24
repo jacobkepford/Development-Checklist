@@ -18,6 +18,7 @@ namespace DevelopmentChecklist.Models
         public int AppID { get; set; }
         public string AppName { get; set; }
         public string AppURL { get; set; }
+
         public string AppDescription { get; set; }
         public AppStatus AppStatus { get; set; }
         public DateTime DateCreated { get; set; }
